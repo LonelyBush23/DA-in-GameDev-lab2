@@ -81,29 +81,16 @@
 
 - Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
 
-- - loss стремиться к нулю если разница между x[i] и y[i] стремится к нулю => Например сделаем x и y одинаковыми, в таком случае значение loss будет минимальным
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/192081934-9b11ddbd-10fd-4a07-a9e9-6332af2b8501.png">
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/192082001-ccdbc592-45de-4844-925c-8c6f55791d40.png">
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/192082027-0ca1cbee-9615-444c-90de-97c10f975b12.png">
-- - Но если разница между x[i] и y[i] будет большой => Например сделаем x и y одинаковыми, в таком случае значение loss будет минимальным
-
+- - При изменении исходных данных величина loss не обязатеьно стремится к нулю, тк функция loss_function зависит не только от y[] и x[], но так же от a и b, значение которых случайно(в промежутке между 0 и 1) => Напимер, если мы изменим данные так, чтобы  y[] = x[], то loss может принимать значение многобольше нуля, так и значение близкое к ему
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/192108304-878e63b3-faa8-43d7-a863-103bec308dcf.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/192108721-855841ca-94f6-4021-b80d-2d96d5be29a0.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/192108753-ad4ba61b-7f4a-4fe7-8184-eac9ec5405f3.png">
 
 - Какова роль параметра Lr? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ. В качестве эксперимента можете изменить значение параметра.
-
+- - Параметр Lr отвечает за наклон прямой на графике, чем меньше значение, тем больше угол с осью OX
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/192108830-f2d84775-3e6d-43af-8fd9-9477a6f0950b.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/192108843-c5a60f37-b1d1-4fda-9eb7-fa162dbbb1a4.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/192108876-22845a40-7a0e-493f-9793-3bd58f5ee45c.png">
 
 ## Выводы
-
-Абзац умных слов о том, что было сделано и что было узнано.
-
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
-
-## Powered by
-
-**BigDigital Team: Denisov | Fadeev | Panov**
+В ходе работы я освоила базовые навыки для работы в таких таких программах как Python и Unity, написала код для работы с алгоритмом линейной регрессии и изучила его
