@@ -44,9 +44,7 @@
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/192080501-390592d2-09b5-4b7e-bd7c-68b2e412b547.png">
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/192080504-45dae688-9535-44e3-bae3-02d995098982.png">
 - Для Unity в отчете привести скриншот вывода сообщения 'Hello World' в консоль.
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/192083528-5e574bd4-1865-4527-a384-6707948c357c.png
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/192083540-66352bda-725f-434f-b7c5-d594ae99c93b.png">
-
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/192083577-32633060-4794-45e9-b73c-eaab87620ab3.png">
 
 ## Задание 2
 ### В разделе "Ход работы" пошагово выполнить каждый пункт с описанием и примером реализации задачи по теме лабораторной работы
