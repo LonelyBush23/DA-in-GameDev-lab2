@@ -47,6 +47,13 @@
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/194570312-4a5d37dc-8716-451b-ae6c-c58677aaabde.png">
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/194570367-28daff36-e229-45f7-a1c3-9f2316536866.png">
 
+- Создать новый проект на Unity, который будет получать данные из google-таблицы, в которую были записаны данные в предыдущем пункте.
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/194598058-d45f1605-3d90-41d4-b097-ae6144980117.png">
+
+- Написать функционал на Unity, в котором будет воспризводиться аудио-файл в зависимости от значения данных из таблицы.
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/194598132-45faecf4-bcd0-4e1b-8056-2e64cc87cd6a.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/194598182-ad50efa8-d9bd-439f-bf9f-cddaa52390ac.png">
+
 ## Задание 2
 ### В разделе "Ход работы" пошагово выполнить каждый пункт с описанием и примером реализации задачи по теме лабораторной работы
 Ход работы:
